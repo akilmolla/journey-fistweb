@@ -55,3 +55,54 @@ header{
     
     
  }
+ section{
+    margin-top: 8rem;
+ } 
+
+ /* main bordy work */
+ .mesurement{
+    width: 70%;
+    margin: 0 auto;
+    border: 1 solid black;
+    /* height: 15rem; */
+    background-color: aqua;
+ }
+ .today-all{}
+ .today-bref{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+ }
+ .today-page{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 660px;
+    font-weight: 300;
+    margin: 0 auto;
+ }
+  /* disply-fex */
+.today-ms{
+    /* background-color: blue; */
+    width: 600px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 3rem;
+
+     
+}
+.sidebr{
+    display: flex;
+    gap: 4rem;
+    margin-right: 0;
+    
+}
+.sidebr p{
+    color: aliceblue;
+    font-size: 2rem;
+}
+#secounf-bor{
+     background-color: brown; 
+    padding: 5px 6px;
+    border: 3px solid black;
+    
+}

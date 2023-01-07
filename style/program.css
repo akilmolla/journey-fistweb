@@ -1,142 +1,232 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Oswald', sans-serif;
+* {
+   padding: 0;
+   margin: 0;
+   font-family: 'Oswald', sans-serif;
 
 }
+
 /* header-areae-top */
-header{
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(141, 141, 142, 0.5), rgba(163, 163, 149, 0.5)),
-    url("../images/donation1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+header {
+   min-height: 100vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(141, 141, 142, 0.5), rgba(163, 163, 149, 0.5)),
+      url("../images/donation1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
 }
-.baner-are{
-    position: relative;
-    left: 33rem;
-    top: 20rem;
-    position: absolute;
-}
-.bref-info{
-    color: aliceblue;
-    font-size: 4rem;
-    font-weight: 300;
-    width: 700px;
-    text-align:center;
-    
-     
-}
-     
- .sub-title{
-    width: 680px;
-    padding: 0 5px;
-    margin-left: 15px;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-bottom: 15px;
- }
- .btn-primary{
-    background-color: brown;
-    padding: 4px 25px;
-    height:5rem;
-    color: aliceblue;
-    font-size: 1.5rem;
-    font-weight: 200;
-    border: 0;
-    border-radius: 5px;
-    position: relative;
-    top: .25rem;
-    left: 19rem;
-    
-    
-    
- }
- section{
-    margin-top: 8rem;
- } 
 
- /* main bordy work */
- .mesurement{
-    width: 70%;
-    margin: 0 auto;
-    border: 1 solid black;
-    /* height: 15rem; */
-    /* background-color: aqua; */
- }
- .today-all{
-    margin-bottom: 6rem;
- }
- .today-bref{
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 300;
- }
- .today-page{
-    text-align: center;
-    font-size: 1.5rem;
-    width: 660px;
-    font-weight: 300;
-    margin: 0 auto;
- }
-  /* disply-fex */
-.today-ms{
-    /* background-color: blue; */
-    width: 600px;
-    height: 25px;
-    margin: 0 auto;
-    margin-top: 3rem;
-    margin-bottom: 8rem;
+.baner-are {
+   position: relative;
+   left: 33rem;
+   top: 20rem;
+   position: absolute;
+}
 
-     
+.bref-info {
+   color: aliceblue;
+   font-size: 4rem;
+   font-weight: 300;
+   width: 700px;
+   text-align: center;
+
+
 }
-.sidebr{
-    display: flex;
-    gap: 4rem;
-    margin-right: 0;
-    
+
+.sub-title {
+   width: 680px;
+   padding: 0 5px;
+   margin-left: 15px;
+   text-align: center;
+   font-size: 1.5rem;
+   font-weight: 300;
+   margin-bottom: 15px;
 }
-.sidebr p{
-    color: #0e0e0f;
-    font-size: 2rem;
+
+.btn-primary {
+   background-color: brown;
+   padding: 4px 25px;
+   height: 5rem;
+   color: aliceblue;
+   font-size: 1.5rem;
+   font-weight: 200;
+   border: 0;
+   border-radius: 5px;
+   position: relative;
+   top: .25rem;
+   left: 19rem;
+
+
+
 }
-#secounf-bor{
-     background-color: brown; 
-    padding: 5px 6px;
-    border: 3px solid black;
-    color: aliceblue;
-    
+
+section {
+   margin-top: 8rem;
 }
-.today-last{
-    margin-top: 150px;
-    width: 600px;
-    height: 25px;
-    margin: 0 auto;
-    position: relative;
-    
+
+/* main bordy work */
+.mesurement {
+   width: 70%;
+   margin: 0 auto;
+   border: 1 solid black;
+   /* height: 15rem; */
+   /* background-color: aqua; */
 }
-.amount-it{
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 200;
+
+.today-all {
+   margin-bottom: 6rem;
 }
-.center-bnt{
-    
-    text-align: center;
-    background-color: brown;
-    padding: 4px 25px;
-    height:3rem;
-    color: aliceblue;
-    font-size: 1.5rem;
-    font-weight: 200;
-    border: 0;
-    border-radius: 5px;
-    position: absolute;
-    left: 14rem;
-    top: 3rem;
+
+.today-bref {
+   text-align: center;
+   font-size: 3rem;
+   font-weight: 300;
+}
+
+.today-page {
+   text-align: center;
+   font-size: 1.5rem;
+   width: 660px;
+   font-weight: 300;
+   margin: 0 auto;
+}
+
+/* disply-fex */
+.today-ms {
+   /* background-color: blue; */
+   width: 600px;
+   height: 25px;
+   margin: 0 auto;
+   margin-top: 3rem;
+   margin-bottom: 8rem;
+
+
+}
+
+.sidebr {
+   display: flex;
+   gap: 4rem;
+   margin-right: 0;
+
+}
+
+.sidebr p {
+   color: #0e0e0f;
+   font-size: 2rem;
+}
+
+#secounf-bor {
+   background-color: brown;
+   padding: 5px 6px;
+   border: 3px solid black;
+   color: aliceblue;
+
+}
+
+.today-last {
+   margin-top: 150px;
+   width: 600px;
+   height: 25px;
+   margin: 0 auto;
+   position: relative;
+
+}
+
+.amount-it {
+   text-align: center;
+   font-size: 1.5rem;
+   font-weight: 200;
+}
+
+.center-bnt {
+
+   text-align: center;
+   background-color: brown;
+   padding: 4px 25px;
+   height: 3rem;
+   color: aliceblue;
+   font-size: 1.5rem;
+   font-weight: 200;
+   border: 0;
+   border-radius: 5px;
+   position: absolute;
+   left: 14rem;
+   top: 3rem;
+
+
+}
+
+/* donatre plan area */
+.donate-plandowen {
+   display: flex;
+   gap: 20px;
+}
+
+.Food-blog {
+   background-color: rgba(210, 105, 30, 0.819);
+   height: 14rem;
+   width: 20rem;
+   margin: 0 auto;
+}
+
+.diloge-bar {
+   background-color: aqua;
+   padding: 15px 18px;
+}
+
+.diloge-img {
+
+   margin: 0 auto;
+   width: 4rem;
+}
+
+.foo-title {
+   font-size: 1.5rem;
+   font-weight: 200;
+   margin-top: 8px;
+}
+
+.foo-pera {
+   width: 16rem;
+   text-align: left;
+   font-size: 1rem;
+   font-weight: 400;
+
+}
+
+/* lives depend on */
+.live-journey{
+   display: flex;
+   gap: 80px;
+}
+.live-depe-left{
+   margin-left: 250px;
+   padding: 20px 20px;
+}
+.live-text{
+   font-size: 3rem;
+   width: 450px;
+   font-weight: 300;
+}
+.live-uptitle{
+   font-size: 20px;
+   font-weight: 400;
+   color: black;
+   width: 400px;
+   margin-top: 11px;
+   margin-bottom: 8px;
+}
+.btns-primary {
+   background-color: brown;
+   padding: 4px 25px;
+   height: 5rem;
+   color: aliceblue;
+   font-size: 1.5rem;
+   font-weight: 200;
+   border: 0;
+   border-radius: 5px;
    
-    
+
+
+
 }

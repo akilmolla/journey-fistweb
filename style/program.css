@@ -238,6 +238,7 @@ section {
    height: 250px;
    background-color: burlywood;
    position: relative;
+   border-radius: 8px;
    
 }
 .maddlcente{

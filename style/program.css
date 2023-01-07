@@ -9,7 +9,7 @@
 header {
    min-height: 100vh;
    width: 100%;
-   background-image: linear-gradient(rgba(141, 141, 142, 0.5), rgba(163, 163, 149, 0.5)),
+   background-image: linear-gradient(rgba(18, 18, 19, 0.5), rgba(23, 23, 22, 0.715)),
       url("../images/donation1.jpg");
    background-repeat: no-repeat;
    background-size: cover;
@@ -159,19 +159,23 @@ section {
 /* donatre plan area */
 .donate-plandowen {
    display: flex;
-   gap: 20px;
+   gap: 0px;
 }
 
 .Food-blog {
-   background-color: rgba(210, 105, 30, 0.819);
-   height: 14rem;
+   /* background-color: rgba(210, 105, 30, 0.819); */
+   height: 18rem;
    width: 20rem;
-   margin: 0 auto;
+   /* margin: 0 auto; */
+   margin-left: 180px;
 }
 
 .diloge-bar {
-   background-color: aqua;
+    background-color: rgba(192, 192, 66, 0.842); 
    padding: 15px 18px;
+   height: 18rem;
+   box-shadow: 2px 8px rgba(203, 194, 57, 0.497);
+
 }
 
 .diloge-img {
@@ -197,7 +201,7 @@ section {
 /* lives depend on */
 .live-journey{
    display: flex;
-   gap: 80px;
+   gap: 60px;
 }
 .live-depe-left{
    margin-left: 250px;
@@ -225,8 +229,57 @@ section {
    font-weight: 200;
    border: 0;
    border-radius: 5px;
+}
+.life-img{
+   margin-left: 220px;
+}
+.eamilare{
+   width: 100;
+   height: 250px;
+   background-color: burlywood;
+   position: relative;
    
+}
+.maddlcente{
+   position: absolute;
+   top: 40%;
+   left: 30%;
+   
+}
+.top-emai{
+   width: 25rem;
+   height: 4rem;
+   border: 3px solid rosybrown;
+   position: relative;
+   border-radius: 10px;
+}
+.butonesytle{
+   
+   width: 10rem;
+   padding: 8px 12px;
+   background-color: brown;
+   border: 0;
+   border-radius: 6px;
+   position: absolute;
+   top: 2.8px;
+   left: 60%;
+   
+   font-size: 2rem;
+   color: aliceblue;
+}
+/* fortera are */
+footer{
+   width: 100%;
+   height: 150px;
+   background-color: black;
+   color: rgb(197, 51, 51);
+   text-align: center;
+   margin-top: 30px;
+}
+.foot{
+   margin-top: 90px;
+}
+footer p{
 
-
-
+   color: antiquewhite;
 }
